@@ -30,7 +30,7 @@ The challenge is to build an **NLP-based classification system** that:
 
 Phish Sentinel is a hybrid machine learning-based phishing detection system designed to intelligently classify email content.  
 
-The system applies **TF-IDF vectorization** for feature extraction and uses **Logistic Regression** as the primary classifier. Additionally, a rule-based scoring mechanism enhances detection by identifying suspicious keywords and URL patterns.  
+The system applies **TF-IDF vectorization (Term Frequency-Inverse Document Frequency)** for feature extraction and uses **Logistic Regression** as the primary classifier. Additionally, a rule-based scoring mechanism enhances detection by identifying suspicious keywords and URL patterns.  
 
 The model is trained and tested using a labeled phishing email dataset with an 80-20 train-test split. Performance is evaluated using standard classification metrics such as accuracy, precision, recall, and F1-score.  
 
@@ -47,3 +47,34 @@ Phish Sentinel aims to address this issue by leveraging Natural Language Process
 Unlike traditional spam filters, Phish Sentinel integrates explainable AI features to provide insights into why an email is classified as phishing. This improves usability and enhances user awareness of potential threats.
 
 The project demonstrates a scalable and practical approach to strengthening email security using intelligent classification techniques.
+
+## ✨ Features
+
+- NLP-based phishing email classification
+- Subject + body email analysis
+- TF-IDF feature extraction
+- Logistic Regression classifier
+- Confidence score output
+- Explainable AI (keyword highlighting)
+- Model evaluation metrics (Accuracy, Precision, Recall, F1-score)
+
+## 🛠 Tech Stack
+- Python
+- FastAPI
+- Scikit-learn
+- Pandas
+- Numpy
+- TF-IDF Vectorization
+- Logistic Regression
+
+## 📈 Model Evaluation
+
+The model was evaluated using an 80-20 train-test split.
+
+Performance Metrics:
+- Accuracy : 98.26%
+- Precision: 95.78%
+- Recall   : 98.33%
+- F1 Score : 97.04%
+
+These metrics demonstrate strong phishing detection capability while minimizing false positives.
