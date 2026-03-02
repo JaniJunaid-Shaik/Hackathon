@@ -1,5 +1,6 @@
 # 🛡 Phish Sentinel
-
+ - An AI-Powered Browser Extension for Phishing Email Detection and Fraud Prevention
+---
 ## Hybrid Explainable AI System for Intelligent Phishing Email Detection
 
 Phish Sentinel is an AI-powered phishing email detection system that uses Natural Language Processing (NLP) and Machine Learning to classify emails as **Phishing** or **Legitimate**. The system provides a confidence score and explainable insights to improve transparency and user awareness.
@@ -78,3 +79,38 @@ Performance Metrics:
 - F1 Score : 97.04%
 
 These metrics demonstrate strong phishing detection capability while minimizing false positives.
+## 🧠 How It Works
+
+1. Email subject and body are combined.
+2. Text is cleaned and preprocessed.
+3. TF-IDF converts text into numerical vectors.
+4. Logistic Regression predicts phishing probability.
+5. Hybrid rule-based scoring enhances detection.
+6. Final classification and confidence score are generated.
+
+## 📊 Confusion Matrix
+
+The model demonstrates strong classification capability with low false positives and high recall.
+
+## ⚠ Limitations
+
+- Performance depends on dataset quality.
+- May struggle with highly obfuscated phishing emails.
+- Does not currently support multi-language detection.
+
+## 🚀 Future Scope
+
+- Integration with email clients
+- Deployment using cloud services
+- Deep learning models (BERT)
+- Real-time threat intelligence integration
+
+## ✅ Conclusion
+
+Phish Sentinel presents an intelligent and scalable approach to phishing email detection using Natural Language Processing and Machine Learning techniques.
+
+By leveraging TF-IDF feature extraction and Logistic Regression classification, the system effectively distinguishes between phishing and legitimate emails. The integration of a hybrid rule-based scoring mechanism enhances detection accuracy and provides explainable outputs through keyword highlighting and confidence scoring.
+
+The model demonstrates strong performance across key evaluation metrics such as accuracy, precision, recall, and F1-score, ensuring reliable detection while minimizing false positives.
+
+Overall, Phish Sentinel showcases a practical, real-world solution to combat digital fraud and strengthen email security through explainable AI-driven classification.So these are the specificarions that are used in the project to make it efficient.
